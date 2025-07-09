@@ -1,7 +1,11 @@
-export default function Footer (){
-    return(
-        <div>
+"use client";
 
-        </div>
-    )
+export default function Footer() {
+  return (
+    <div className="bg-slate-50 text-gray-400 text-center p-8">
+      <p>
+        &copy;{new Date().getFullYear()} Karimi Portfolio. All rights reserved.
+      </p>
+    </div>
+  );
 }
